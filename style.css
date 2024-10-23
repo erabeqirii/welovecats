@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+	background-color: #A7C7E7;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 2px solid black;
+    background-color: #FDFD96;
+}
+.logo {
+    height: 40px;
+    width: 140px;
+    object-fit: contain;
+}
+.title {
+	text-align: center;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid black;
+    background-color: #FDFD96;
+}
+
+.header {
+    position: relative;
+    background-image: url(https://cdn.mos.cms.futurecdn.net/AjS75HQRGiy9F3XoUDC5m7-1200-80.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: calc(100vh - 77.5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.header::after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.4;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+
+.header h1 {
+    position: relative;
+    z-index: 2;
+    font-size: 55px;
+    padding: 30px;
+    color: #fff;
+    word-break: break-word;
+}
+hr {
+	visibility: hidden;
+}
+.contact-form,
+.images {
+    background-color: white;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    display: inline-block;
+    width: calc(33% - 20px) ;
+    padding: 10px;
+}
+
+.card-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+	border-radius: 5px;
+}
+
+.contact-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.contact-form-img {
+    width: 50%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.contact-form form {
+    width: 50%;
+    padding: 30px;
+}
+
+.contact-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.images h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+@media only screen and (min-width: 800px) {
+    .images h2 {
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .card {
+        width: calc(49.5% - 20px) ;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .nav {
+        flex-direction: column;
+    }
+    .card {
+        width: calc(99.5% - 20px) ;
+    }
+
+    .contact-form h1 {
+        text-align: center;
+    }
+
+    .contact-form-img {
+        width: 90%;
+    }
+    /* .contact-form form {
+        width: 50%;
+        padding: 30px;
+    } */
+    
+    .contact-wrapper {
+        flex-direction: column;
+    }
+}
