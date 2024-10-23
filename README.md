@@ -1,0 +1,1 @@
+This project is a simple and visually appealing static webpage titled "We Love Cats", designed to showcase a love for cats and provide a platform for users to submit contact information related to their cats.
