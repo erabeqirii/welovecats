@@ -2,9 +2,11 @@
 We Love Cats is a static website designed to showcase adorable cats. It features images of different cats with their names and ages, as well as a contact form for visitors to submit information about their own cats.
 
 ## Key Features:
-### Responsive Navigation: The website has a simple navigation section with a logo featuring a cute cat icon.
+### Responsive Navigation: 
+The website has a simple navigation section with a logo featuring a cute cat icon.
 
-### Header Section: The main header, titled "We Love Cats", is prominently displayed to introduce the theme of the site.
+### Header Section: 
+The main header, titled "We Love Cats", is prominently displayed to introduce the theme of the site.
 
 ### Cats Gallery:
 The gallery section features a few cats, each with its own image, name, and age.
